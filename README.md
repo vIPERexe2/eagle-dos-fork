@@ -2,7 +2,7 @@
 # Author - white eagle
 # Fork - vIPERexe2
 # This is only for educational purpose and so, it is a simple implementation of dos/ddos attack script.
-
+# I have Update the code provided to improve its readability, maintainability, and efficiency. 
 The script is a basic implementation of a UDP flood attack, which is a type of denial-of-service (DoS) attack.
 
 
@@ -15,6 +15,7 @@ _______________
 	 apt update -y && apt upgrade -y
 	 pkg install git
 	 pkg install python2
+         pip install python3-nmap
 	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
 	 cd eagle-dos.py
 	 git pull
