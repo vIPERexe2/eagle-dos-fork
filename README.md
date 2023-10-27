@@ -12,13 +12,13 @@ You can attack to any network or to an android phone,a computer,a router or a we
 
 commands
 _______________
-	$ apt update -y && apt upgrade -y
-	$ pkg install git
-	$ pkg install python2
-	$ git clone https://github.com/WH1T3-E4GL3/eagle-dos.git
-	$ cd eagle-dos.py
-	$ git pull
-	$ python eagle-dos.py
+	 apt update -y && apt upgrade -y
+	 pkg install git
+	 pkg install python2
+	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
+	 cd eagle-dos.py
+	 git pull
+	 python eagle-dos.py
  
 
 
