@@ -1,6 +1,6 @@
 # eagle-dos
 # Author - white eagle
-
+# Fork - vIPERexe2
 # This is only for educational purpose and so, it is a simple implementation of dos/ddos attack script.
 
 The script is a basic implementation of a UDP flood attack, which is a type of denial-of-service (DoS) attack.
