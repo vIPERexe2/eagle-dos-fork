@@ -1,12 +1,11 @@
-#Author WHITE L'
 import socket
 import os
 import random
 import time
 
-B = '\033[1m'
-R = '\033[31m'
-N = '\033[0m'
+BOLD = '\033[1m'
+RED = '\033[31m'
+NORMAL = '\033[0m'
 
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
@@ -25,11 +24,11 @@ print("                    $$\   $$ |                                           
 print("                    \$$$$$$  |                                                  ")
 print("                     \______/                                                   ")
 print()
-print("[" + B + "" + R + "#" + N + "] " + B + "" + R + "Author : White Eagle" + N + "   Eagle Dos From - " + B + "" + R + "WH1T3" + N)
+print("[" + BOLD + "" + RED + "#" + NORMAL + "] " + BOLD + "" + RED + "Author : White Eagle" + NORMAL + "   Eagle Dos From - " + BOLD + "" + RED + "WH1T3" + NORMAL)
 print()
 print("\033[32m================================================================\033[0m")
-print("\033[32mTool devoloped : white-eagle\033[0m")
-print("\033[33mGithub 	       : https://github.com/WH1T3-E4GL3/\033[0m")
+print("\033[32mTool developed : white-eagle\033[0m")
+print("\033[33mGithub         : https://github.com/WH1T3-E4GL3/\033[0m")
 print("\033[33mTelegram       : https://t.me/Ka_KsHi_HaTaKe\033[0m")
 print("\033[32m================================================================\033[0m")
 print()
