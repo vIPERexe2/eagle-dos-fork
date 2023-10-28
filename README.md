@@ -19,7 +19,7 @@ _______________
 	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
 	 cd eagle-dos.py
 	 git pull
-	 python eagle-dos.py
+	 python eagle-dos-fork.py
  
 
 
