@@ -10,16 +10,16 @@ This is a  tool used for ddos attack from port 1 to port 65534.
 You can attack to any network or to an android phone,a computer,a router or a website with their ip address and any port
 
 
-commands
+commands termux
 _______________
 	 apt update -y && apt upgrade -y
 	 pkg install git
 	 pkg install python2
          pip install python3-nmap
 	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
-	 cd eagle-dos.py
-	 git pull
-	 python eagle-dos.py
+	 cd eagle-dos-fork.py
+
+	 python eagle-dos-fork.py
  
 
 
