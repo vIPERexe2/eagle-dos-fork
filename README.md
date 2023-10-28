@@ -17,7 +17,7 @@ _______________
 	 pkg install python2
          pip install python3-nmap
 	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
-	 cd eagle-dos.py
+	 cd eagle-dos-fork.py
 	 git pull
 	 python eagle-dos.py
  
