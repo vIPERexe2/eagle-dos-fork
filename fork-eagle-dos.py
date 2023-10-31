@@ -2,7 +2,6 @@ import socket
 import os
 import random
 import time
-import nmap
 
 BOLD = '\033[1m'
 RED = '\033[31m'
