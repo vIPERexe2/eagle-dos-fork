@@ -12,14 +12,14 @@ You can attack to any network or to an android phone,a computer,a router or a we
 
 commands termux
 _______________
-	 apt update -y && apt upgrade -y
+	 
 	 pkg install git
 	 pkg install python2
          pip install python3-nmap
 	 git clone https://github.com/vIPERexe2/eagle-dos-fork.git
 	 cd eagle-dos-fork.py
 
-	 python eagle-dos-fork.py
+	 python dos.py
  
 
 
