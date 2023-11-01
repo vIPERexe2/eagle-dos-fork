@@ -53,7 +53,6 @@ def main():
     print_info()
     ip = input("[+] Target's IP : ")
     perform_attack(ip)
-    perform_ping(ip)
 
 if __name__ == "__main__":
     main()
