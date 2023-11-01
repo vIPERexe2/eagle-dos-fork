@@ -48,16 +48,6 @@ def perform_attack(ip):
             print(f"\033[1;91mError sending packet to port {port}: {str(e)}\033[0m")
     print("\033[1;92mAttack finished\033[0m")
 
-def perform_ping(ip):
-    nm = nmap.PortScanner()
-    try:
-        nm.scan(ip, arguments='-sn')
-        hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]
-        for host, status in hosts_list:
-            print(f"Host: {host}\tStatus: {status}")
-    except nmap.PortScannerError as e:
-        print(f"\033[1;91mError scanning host: {str(e)}\033[0m")
-
 def main():
     print_header()
     print_info()
