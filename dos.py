@@ -52,7 +52,10 @@ def main():
     print_header()
     print_info()
     ip = input("[+] Target's IP : ")
-    perform_attack(ip)
+    try:
+        perform_attack(ip)
+    except Exception as e:
+        print(f"\033[1;91mAn error occurred during the attack: {str(e)}\033[0m")
 
 if __name__ == "__main__":
     main()
